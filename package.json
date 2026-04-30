@@ -1,0 +1,22 @@
+{
+  "name": "online-complaint-management-system",
+  "version": "1.0.0",
+  "description": "Cloud-based Online Complaint Registration and Management System developed by Niharika",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Niharika",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cloudinary": "^1.35.0",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.9.1"
+  }
+}
