@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Admin | Login</title>
+    <title>Officer | Login</title>
     <link
       rel="shortcut icon"
       href="../../images/logo.png"
@@ -28,28 +28,28 @@
       <h1 class="text-2xl font-bold text-center">Login</h1>
       <form
       method="post"
-        action="/admin/login"
-      
+        action="/officer/login"
+        class="space-y-6 ng-untouched ng-pristine ng-valid"
       >
         <div class="space-y-1 text-sm">
-          <label for="username" class="block text-gray-600">Name</label>
+          <label for="username" class="block text-gray-600">Officer Name</label>
           <input
           required
             type="text"
-            name="name"
+            name="officername"
             id="username"
-            placeholder="Name"
+            placeholder="Officer name"
             class="w-full px-4 py-3 rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-sky-600"
           />
         </div>
         <div class="space-y-1 text-sm">
-          <label for="password" class="block text-gray-600">Password</label>
+          <label for="password" class="block text-gray-600">Officer Id</label>
           <input
           required
             type="password"
             name="password"
             id="password"
-            placeholder="Password"
+            placeholder="Officer Id"
             class="w-full px-4 py-3 rounded-md border-gray-300 bg-gray-50 text-gray-800 focus:border-sky-600"
           />
         </div>
